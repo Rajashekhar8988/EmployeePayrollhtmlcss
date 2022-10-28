@@ -104,8 +104,6 @@ label {
     border-radius: 4px;
 }
 
-/* UC 3 specify profile pic to the employee payroll app  */
-
 .profile-radio-content { 
     flex-direction: row;
     display: flex;
