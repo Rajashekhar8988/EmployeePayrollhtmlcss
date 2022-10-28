@@ -104,6 +104,8 @@ label {
     border-radius: 4px;
 }
 
+/* UC 3 properties for profile pic */
+
 .profile-radio-content { 
     flex-direction: row;
     display: flex;
@@ -120,7 +122,10 @@ label {
     border-radius: 50%; 
     margin-left: 12px;
 }
-select. {
+
+/* UC 5 properties for start date */ 
+
+.select {
     padding: 12px;
     border: 1px solid #ccc;   
     border-radius: 4px;    
@@ -131,6 +136,8 @@ select. {
     background-color: transparent;
 }
 
+/* UC 6 properties for notes and button */
+
 .buttonParent { 
     display: flex; 
     margin-bottom: 10px; 
@@ -139,7 +146,6 @@ select. {
 }
 
 .button {
-
     font-size: 20px;
     color: #425151; 
     opacity: 1;
@@ -175,6 +181,8 @@ select. {
     border: 1px solid #787070;
     margin-right: 30px;
 }
+
+/* media queries */ 
 
 @media only screen and (max-width: 960px) { 
     .cancelButton {
